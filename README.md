@@ -1,2 +1,2 @@
 # Image-Segmentation
-Machine Learning CS584 prroject
+Machine Learning CS584 project
