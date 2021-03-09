@@ -6,5 +6,10 @@ from scipy import ndimage
 # %matplotlib inline
 
 image = plt.imread('1.jpeg')
-image.shape
-plt.imshow(image)
+print(image.shape)
+print(plt.imshow(image))
+
+gray = rgb2gray(image)
+print(plt.imshow(gray, cmap='gray'))
+
+print(gray.shape)
