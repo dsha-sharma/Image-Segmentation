@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from scipy import ndimage
 # %matplotlib inline
 # reading the input image
-image = plt.imread('1.jpeg')
+image = plt.imread('4.jpeg')
 print(image.shape)
 print(plt.imshow(image))
 # converting the input image to grayscale
@@ -37,3 +37,4 @@ for i in range(gray_r.shape[0]):
         gray_r[i] = 0
 gray = gray_r.reshape(gray.shape[0],gray.shape[1])
 plt.imshow(gray, cmap='gray')
+# improve processing time for the for loop above
